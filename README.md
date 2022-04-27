@@ -3,9 +3,11 @@
 ### Project Overview: Analyze the difference in number and percentage of 5-star reviews for paid versus unpaid reviews.
 ---
 
+</br>
+
 ## Results
 
-We were tasked with analyzing Amazon reviews written by members of the paid Amazon Vine program.  The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.  For our project, we analyzed Vine and non-Vine review and product data from the **video games** department.
+We were tasked with analyzing Amazon reviews written by members of the paid **Amazon Vine program**.  The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.  For our project, we analyzed Vine and non-Vine review and product data from the **video games** department.
 
 *Some review data was left out from the original dataset for our final analysis.  In an attempt to increase base review credibility, we only inlcluded review data whose reviews received 20+ votes, and whose reviews received "helpful" votes at least 50% of the time.* 
 
@@ -20,6 +22,11 @@ Our analysis determined:
 - 51% of paid reviews were 5-star reviews (Vine)
   - 39% of unpaid reviews were 5-star reviews
 
+Paid Reviews Analysis (Vine)     |  Unpaid Reviews Analysis
+:-------------------------:|:-------------------------:
+<img src="https://github.com/ajcurtis916/Amazon_Vine_analysis/blob/main/resources/paid_reviews_analysis.png" width="500" />|<img src="https://github.com/ajcurtis916/Amazon_Vine_analysis/blob/main/resources/unpaid_reviews_analysis.png" width="500"/>
+</br>
+</br>
 
 ## Summary
 
