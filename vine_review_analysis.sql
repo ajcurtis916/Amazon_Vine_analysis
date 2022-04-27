@@ -109,7 +109,3 @@ SELECT total_reviews, fivestar_count,
 CAST(fivestar_count as FLOAT)/CAST(total_reviews as FLOAT)
 percentage FROM unpaid_join;
 
-
-
-
-
