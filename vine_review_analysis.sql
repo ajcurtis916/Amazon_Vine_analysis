@@ -83,16 +83,33 @@ SELECT COUNT(star_rating) FROM non_vine_reviews
 WHERE (star_rating=5);
 SELECT * FROM unpaid_5_stars;
 
+-- join and fill paid tables
+SELECT pr.total_reviews, p5.fivestar_count
+INTO paid_join
+FROM paid_reviews as pr
+INNER JOIN paid_5_stars as p5
+ON 1=1;
+SELECT * FROM paid_join;
+
+-- join and fill unpaid tables
+SELECT ur.total_reviews, u5.fivestar_count
+INTO unpaid_join
+FROM unpaid_reviews as ur
+INNER JOIN unpaid_5_stars as u5
+ON 1=1;
+SELECT * FROM unpaid_join;
+
+-- % 5-star reviews paid
+SELECT total_reviews, fivestar_count,
+CAST(fivestar_count as FLOAT)/CAST(total_reviews as FLOAT)
+percentage FROM paid_join;
+
+-- % 5-star reviews unpaid
+SELECT total_reviews, fivestar_count,
+CAST(fivestar_count as FLOAT)/CAST(total_reviews as FLOAT)
+percentage FROM unpaid_join;
 
 
--- join and fill tables
-SELECT total_paid.total_reviews, paid_5_stars.fivestar_count
-INTO paid_review_temp
-FROM total_paid
-INNER JOIN paid_5_stars ON 1=1;
-
-SELECT total_reviews, fivestar_count, CAST(fivestar_count as FLOAT)/CAST(total_reviews as FLOAT)
-FROM paid_review_temp;
 
 
 
