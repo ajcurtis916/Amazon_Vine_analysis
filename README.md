@@ -1,8 +1,7 @@
 # Amazon Vine Analysis
 ## *Determine Potential Bias from Paid Reviews*
-### Project Overview: Analyze the difference in number and percentage of 5-star reviews for paid versus unpaid reviews.
+### Project Overview: Analyze the difference in number and percentage of 5-star reviews for paid versus unpaid reviews on Amazon.
 ---
-
 </br>
 
 ## Results
@@ -11,7 +10,6 @@ We were tasked with analyzing Amazon reviews written by members of the paid **Am
 
 *Some review data was left out from the original dataset for our final analysis.  In an attempt to increase base review credibility, we only inlcluded review data whose reviews received 20+ votes, and whose reviews received "helpful" votes at least 50% of the time.* 
 
-- Using bulleted lists and images of DataFrames as support, address the following questions:
 Our analysis determined:
 - There were 40,565 total reviews after filtering for "credible" reviews
   - 94 paid reviews (Vine)
@@ -21,6 +19,8 @@ Our analysis determined:
   - 15,663 5-star reviews were unpaid
 - 51% of paid reviews were 5-star reviews (Vine)
   - 39% of unpaid reviews were 5-star reviews
+</br>
+</br>
 
 Paid Reviews Analysis (Vine)     |  Unpaid Reviews Analysis
 :-------------------------:|:-------------------------:
@@ -30,4 +30,6 @@ Paid Reviews Analysis (Vine)     |  Unpaid Reviews Analysis
 
 ## Summary
 
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+Our analysis shows a positivity bias towards reviews in the Vine program.  Products reviewed within the video games department on Amazon recieved 12% more 5-star when reviewed by a paid (Vine) user.  This may due to the fact that they are being paid for the review, or because they are receiving the item for free.
+
+Another potential reason for the bias is that the type of people that would sign up for the Vine Program are seasoned reviewers, and their reviews may have been upvoted more or voted as "helpful" more often, meaning their reviews were more likely to make it to our data pool for analysis.  It is recommended that we perform the analysis again with the entire dataset to account for the last consideration.  
