@@ -30,6 +30,6 @@ Paid Reviews Analysis (Vine)     |  Unpaid Reviews Analysis
 
 ## Summary
 
-Our analysis shows a positivity bias towards reviews in the Vine program.  Products reviewed within the video games department on Amazon recieved 12% more 5-star when reviewed by a paid (Vine) user.  This may due to the fact that they are being paid for the review, or because they are receiving the item for free.
+Our analysis shows a positivity bias towards reviews in the Vine program.  Products reviewed within the video games department on Amazon recieved 12% more 5-star ratings when reviewed by a paid (Vine) user.  This may be due to the fact that they are being paid for the review, or because they are receiving the item for free.
 
-Another potential reason for the bias is that the type of people that would sign up for the Vine Program are seasoned reviewers, and their reviews may have been upvoted more or voted as "helpful" more often, meaning their reviews were more likely to make it to our data pool for analysis.  It is recommended that we perform the analysis again with the entire dataset to account for the last consideration.  
+Another potential reason for the bias is the type of people who would sign up for the Vine Program are seasoned reviewers, so their reviews would be of higher quality and may have been upvoted more or voted as "helpful" more often, meaning their reviews were more likely to make it to our data pool for analysis.  It is recommended that we perform the analysis again with the entire dataset to account for the last consideration.  
